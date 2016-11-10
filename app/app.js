@@ -3,7 +3,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-const trailerRouter = require('./routes/trailerRouter.js');
 const userRouter = require('./routes/userRouter.js');
 const authRouter = require('./routes/authRouter');
 const authentication = require('./middleware/authentication');
@@ -29,6 +28,5 @@ app.use(logger('dev'));
 app.use('/api', authentication);
 app.use('/api', authRouter);
 app.use('/api/users', userRouter);
-app.use('/api/trailers', trailerRouter);
 
 module.exports = app;

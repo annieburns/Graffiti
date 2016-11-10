@@ -1,5 +1,5 @@
 {
-  "name": "trailer-park",
+  "name": "graffiti",
   "version": "1.0.0",
   "description": "## Problem Statement:",
   "main": "server.js",
@@ -17,9 +17,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/erikwithuhk/trailer-park/issues"
+    "url": "git@github.com:annieburns/Graffiti.git"
   },
-  "homepage": "https://github.com/erikwithuhk/trailer-park#readme",
+  "homepage": "git@github.com:annieburns/Graffiti#readme",
   "dependencies": {
     "babel-core": "^6.17.0",
     "babel-loader": "^6.2.5",

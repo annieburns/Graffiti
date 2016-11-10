@@ -1,5 +1,3 @@
-
-
 if (!process.env) {
   require('dotenv').config();
 }
